@@ -1,5 +1,6 @@
 import React from "react";
 import { Layout, Row, Typography } from "antd";
+import Logo from "./logo.png";
 
 const { Title } = Typography;
 
@@ -21,7 +22,7 @@ const Header = () => {
   return (
     <Layout.Header style={headerStyle}>
       <Row justify="space-between" align="middle">
-        <img src="/logo.png" alt="Logo" />
+        <img src={Logo} alt="Logo" />
 
         <Title level={5} style={titleStyle}>
           Currency
