@@ -17,6 +17,13 @@ Example - in the mockups (https://drive.google.com/file/d/1c23I1p57iTinRdsLrWleE
 - Cover by unit tests  - currency converter and function, that will validate input values in the editable cells.
 - Height of layout application - full screen height, without vertical scroll  header, footer - 100px height, all another vertical space - content.
 
+## Technology stack:
+- React, TS
+- State management - Redux
+- Ui framework - ANTd
+- Unit tests - jest, react-testing-library
+
+
 
 
 
